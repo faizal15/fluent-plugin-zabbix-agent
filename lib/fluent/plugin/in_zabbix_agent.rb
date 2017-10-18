@@ -1,4 +1,5 @@
 require 'fluent_plugin_zabbix_agent/version'
+require 'fluent/input'
 
 class Fluent::ZabbixAgentInput < Fluent::Input
   Fluent::Plugin.register_input('zabbix_agent', self)
